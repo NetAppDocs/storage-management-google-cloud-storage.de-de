@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-gcp-enable-data-services.html 
 keywords: google buckets, google storage, google cloud storage working environment, google cloud storage buckets, system 
-summary: Wenn Sie Google Cloud Storage-Buckets in der NetApp Konsole entdecken, können Sie NetApp Datendienste für Backup, Tiering und Datensynchronisierung verwenden. 
+summary: Wenn Sie Google Cloud Storage-Buckets in der NetApp Console entdecken, können Sie NetApp Datendienste für Backup, Tiering und Datensynchronisierung verwenden. 
 ---
 = Verwenden Sie NetApp Datendienste mit Google Cloud Storage-Buckets
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Wenn Sie Google Cloud Storage-Buckets in der NetApp Konsole entdecken, 
 
 
 [role="lead"]
-Wenn Sie Google Cloud Storage-Buckets in der NetApp Konsole entdecken, können Sie NetApp Datendienste für Backup, Tiering und Datensynchronisierung verwenden.
+Wenn Sie Google Cloud Storage-Buckets in der NetApp Console entdecken, können Sie NetApp Datendienste für Backup, Tiering und Datensynchronisierung verwenden.
 
 * Verwenden Sie * NetApp Backup and Recovery*, um Daten von Ihren lokalen ONTAP und Cloud Volumes ONTAP -Systemen im Google Cloud-Objektspeicher zu sichern.
 +

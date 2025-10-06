@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="5a6d96b9a020e520981bf7fe4c7af203" category="doc">Möglichkeit, neue Buckets hinzuzufügen und vorhandene Buckets von BlueXP aus zu verwalten</block>
+  <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">Erfahren Sie, wie Sie neue Google Cloud Storage-Buckets hinzufügen</block>
+  <block id="00079c5af8b652f708d4b2d3c217dce6" category="paragraph">Sie können Google Cloud Storage-Buckets eine ganze Weile lang auf dem BlueXP Canvas anzeigen. Jetzt können Sie direkt von BlueXP aus neue Buckets hinzufügen und Eigenschaften für vorhandene Buckets ändern.<block ref="493cc79f245c411ab616a87cbaf9a9f5" category="inline-link-rx"></block> .</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP heißt jetzt NetApp Console</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp -Speicher und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Arbeitsabläufe und eine vereinfachte Verwaltung mit hoher Sicherheit und Konformität.</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">Versionshinweise zur NetApp Console</block>
+  <block id="9fad6bb6d30ac060d7377371e39b12c0" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> .</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Rechtliche Hinweise</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Rechtliche Hinweise bieten Zugriff auf Urheberrechtserklärungen, Marken, Patente und mehr.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marken</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, das NETAPP-Logo und die auf der NetApp -Markenseite aufgeführten Marken sind Marken von NetApp, Inc. Andere Firmen- und Produktnamen können Marken ihrer jeweiligen Eigentümer sein.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patente</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Eine aktuelle Liste der Patente im Besitz von NetApp finden Sie unter:</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Datenschutzrichtlinie</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open Source</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Hinweisdateien enthalten Informationen zu Urheberrechten und Lizenzen Dritter, die in der NetApp -Software verwendet werden.</block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">Hinweis zur NetApp Console</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="b00dbab4a40e5f92b028b1318f490bfe" category="summary">Wenn Ihr Google Cloud Storage-System auf der Seite „Systeme“ verfügbar ist, können Sie weitere Buckets direkt von der NetApp Console aus hinzufügen.</block>
+  <block id="19f54385373bc28f865c148e37d5418a" category="doc">Google Cloud Storage-Buckets hinzufügen</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Schritte</block>
+  <block id="287a29ef66672b675a81b422726252bc" category="list-text">Doppelklicken Sie auf der Seite „Systeme“ auf das Google Cloud Storage-System, um die Übersichtsseite der Google Cloud Storage-Buckets anzuzeigen, und klicken Sie auf *Bucket hinzufügen*.</block>
+  <block id="7905235e0b9d47c87993bfcf15c3dd50" category="paragraph">Die Seite _Bucket hinzufügen_ wird angezeigt.</block>
+  <block id="6c2ed49d2a85251adbf8725c16c45ceb" category="list-text">Geben Sie die erforderlichen Informationen im Abschnitt _Projektdetails_ ein.</block>
+  <block id="194614c2947472789a89fac4e726468f" category="inline-link">Informationen zu den Benennungsanforderungen finden Sie in der Google Cloud-Dokumentation.</block>
+  <block id="b2f55361a886d6f0b36b44efac73809c" category="list-text">*Bucketname* – Geben Sie den Namen ein, den Sie für den Bucket verwenden möchten.<block ref="da6b1c222d0c064c1a3f413b6b25cbe5" category="inline-link-rx"></block> .</block>
+  <block id="380bfdc134190af310ad2f9812d7569f" category="inline-link">wie auf dieser Seite beschrieben</block>
+  <block id="10783e0686d7dbd7441b4301ff235c15" category="list-text">*Google-Projekt* – Wählen Sie das Google-Projekt aus, das Eigentümer des Buckets sein soll.  Dies kann das primäre Projekt sein, in dem der Konsolenagent bereitgestellt wurde, oder es kann ein anderes Projekt sein.  Wenn in der Dropdown-Liste keine weiteren Projekte angezeigt werden, haben Sie das NetApp Console -Dienstkonto noch nicht mit anderen Projekten verknüpft.  Gehen Sie zur Google Cloud-Konsole, öffnen Sie den IAM-Dienst und wählen Sie das Projekt aus.  Fügen Sie diesem Projekt das Dienstkonto mit der NetApp Console hinzu. Sie müssen diesen Schritt für jedes Projekt wiederholen.  HINWEIS: Dies ist das Dienstkonto, das Sie für die NetApp Console einrichten.<block ref="2da5c878c49e0ecce833e4a86e81840d" category="inline-link-rx"></block> .</block>
+  <block id="eedf77fc8235e2e5eb0da421ae8d0247" category="inline-link">Weitere Informationen zu Labels finden Sie in der Google Cloud-Dokumentation.</block>
+  <block id="411b919f3c21616c0b2321f41ce011a4" category="list-text">*Labels* – Labels sind Metadaten für Ihre Google Cloud-Ressourcen.  Sie können beim Erstellen eines Buckets bis zu 10 Label-Schlüssel:Wert-Paare hinzufügen. <block ref="0e6126ee9764c5d28fc4a15def587b1a" category="inline-link-rx"></block> .</block>
+  <block id="9ff937073a30d0158ea6edb334cda923" category="list-text">Wählen Sie im Abschnitt „Standort“ den Standorttyp und die Region (oder Regionen) aus, in der der Bucket erstellt werden soll.  Sie können aus drei verschiedenen Standorttypen auswählen.</block>
+  <block id="8af28f8050add88f47663e63eaac80fb" category="cell">Wenn Sie den „Standorttyp“ auswählen …</block>
+  <block id="48608c1c17bfe6c3f06fc0b6acd8f2b1" category="cell">Wählen Sie dann ...</block>
+  <block id="f447ac856e7e72435904956e3b15f433" category="cell">Region</block>
+  <block id="050051186b7e5077272a4128900bbb87" category="cell">Eine einzelne Region aus dem Feld „Verfügbare Regionen“.</block>
+  <block id="39596571d4cbd3605dda58ae43af1ad6" category="cell">Dual-Region</block>
+  <block id="62510367db3ad2deb1fb7fdf1bc760bd" category="paragraph">Wählen Sie den geografischen Standort (einen einzelnen Kontinent) aus dem Feld „Verfügbare Standorte“ aus und wählen Sie dann zwei Regionen im Feld „Verfügbare Regionen“ aus.</block>
+  <block id="488320291e74e62a9a9f44ac6ad381ac" category="paragraph">Sie können die „Turbo-Replikation“ aktivieren, wenn Sie für alle neu geschriebenen Objekte innerhalb eines Zielzeitraums von 15 Minuten Georedundanz garantieren möchten.</block>
+  <block id="5c138f4c6c585c383a0333e3473c0151" category="cell">Mehrere Regionen</block>
+  <block id="d87d892388ed01d62c842ab0d4b20914" category="cell">Die geografische Multiregion aus dem Feld „Verfügbare Multiregionen“.</block>
+  <block id="5d2b6b20c6fc689def52e67bb5d76881" category="inline-link">Weitere Informationen zu Bucket-Standorten finden Sie in der Google Cloud-Dokumentation.</block>
+  <block id="4d7a3d667510ec48f352d3a342435207" category="paragraph">Beachten Sie, dass alle Cloud Storage-Daten ab dem Hochladen über mindestens zwei Zonen innerhalb mindestens eines geografischen Ortes redundant sind.<block ref="4005711632a12fe6fcf58a90e24df63b" category="inline-link-rx"></block> .</block>
+  <block id="adec7d77889fd386d1dba439d7880387" category="list-text">Wählen Sie im Abschnitt _Speicherklasse_ die Speicherklasse aus, die für Objekte in Ihrem Bucket verwendet werden soll.  Sie können aus vier Speicherklassen auswählen oder _Autoclass_ auswählen und Google passt die Klasse nach Bedarf an.</block>
+  <block id="0700b2a48cd9df13092d646eb73f8e72" category="list-text">*Standard* – Am besten geeignet für Daten, auf die häufig zugegriffen wird („heiße“ Daten) oder die nur für kurze Zeit gespeichert werden.</block>
+  <block id="47afed63da1eda0747061acedfa13bc3" category="list-text">*Nearline* – Ein kostengünstiger, äußerst langlebiger Speicherdienst zum Speichern selten abgerufener Daten.</block>
+  <block id="514749164593d95d5cb0efb3cef1ac3e" category="list-text">*Coldline* – Ein sehr kostengünstiger, äußerst langlebiger Speicherdienst zum Speichern selten abgerufener Daten.</block>
+  <block id="7e192c3927446c770a9a197b833db414" category="list-text">*Archiv* – Der kostengünstigste und langlebigste Speicherdienst für Datenarchivierung, Online-Backup und Notfallwiederherstellung.</block>
+  <block id="001efc5d061c01c6f797e63f75c59540" category="list-text">*Autoclass* – Überträgt Objekte in Ihrem Bucket automatisch in die entsprechenden Speicherklassen, basierend auf dem Zugriffsmuster jedes Objekts.</block>
+  <block id="1ffab1cad4161c47ed0ef1b8b664bccd" category="inline-link">Weitere Informationen zu Speicherklassen finden Sie in der Google Cloud-Dokumentation.</block>
+  <block id="c16686547431ba96defb7b0f07990f17" category="paragraph">Die Kosten und Abrufgebühren sind für jede Lagerklasse unterschiedlich.<block ref="a9049d892eab54a581496747db354f33" category="inline-link-rx"></block> .</block>
+  <block id="b8f397da70b175c5a66f1bef0e198375" category="list-text">Wählen Sie im Abschnitt „Schutz“ aus, ob Sie Datenschutztools zum Schutz der Objekte im Bucket oder eine Datenverschlüsselungskonfiguration zum Schutz des Zugriffs auf Ihre Daten verwenden möchten.</block>
+  <block id="ceecb6d1abb638dbc2b05ef4dfd195b0" category="paragraph">*Datenschutz-Tools*</block>
+  <block id="370037bbc04e6fe7ab6482e9f6b614b4" category="list-text">*Keine* – Standardmäßig sind für den Bucket keine Schutztools aktiviert.</block>
+  <block id="6a329eee8ecb754ee4d24917156a03df" category="list-text">*Objektversionierung* – Objektversionierung ist eine Möglichkeit, mehrere Versionen eines Objekts im selben Bucket aufzubewahren.  Der Bucket behält jedes Mal eine nicht aktuelle Objektversion bei, wenn Sie eine Live-Objektversion aktualisieren, ersetzen oder löschen – und behält so kontinuierlich eine geschützte Version des Objekts bei.  Wenn Sie „Objektversionierung“ auswählen, können Sie zwei Optionen angeben:</block>
+  <block id="4664f5efbac0c00ddc9a84ac4ee37b4f" category="list-text">*Max. Anzahl der Versionen pro Objekt* – Geben Sie die Anzahl der nicht aktuellen Versionen pro Objekt ein, die erstellt werden sollen.</block>
+  <block id="4092e2c83312d8c50d7db8ca190293b1" category="list-text">*Nicht aktuelle Versionen laufen ab nach* – Geben Sie die Anzahl der Tage ein, nach denen die älteren, nicht aktuellen Objekte entfernt werden.</block>
+  <block id="d85646dfcad0e7028cc1167688339ca6" category="list-text">*Aufbewahrungsrichtlinie* – Eine Aufbewahrungsrichtlinie stellt sicher, dass alle aktuellen und zukünftigen Objekte im Bucket nicht gelöscht oder ersetzt werden können, bis sie das in der Aufbewahrungsrichtlinie definierte Alter erreichen.  Wenn Sie „Aufbewahrungsrichtlinie“ auswählen, können Sie zwei Optionen angeben:</block>
+  <block id="0dd86d86f87c4d7e5bc9b3f9ec499c69" category="list-text">*Objekte aufbewahren für* – Geben Sie die Anzahl der Sekunden, Tage, Monate oder Jahre ein, für die Objekte aufbewahrt werden.</block>
+  <block id="e98ba97e374f06c4a2176b123d2b6a51" category="list-text">*Zeitrahmen* – Wählen Sie aus, ob die Zeit in Sekunden, Tagen, Monaten oder Jahren angegeben werden soll.</block>
+  <block id="b00f87e888861bba96aa7b0d5a5715a4" category="inline-link">Weitere Informationen zur Objektversionierung</block>
+  <block id="ff0c2266ee933292fe4564008ae30a52" category="inline-link">Weitere Informationen zu Aufbewahrungsrichtlinien</block>
+  <block id="0b5616579f6f22614eee8d14dddb8431" category="paragraph">Die Tools zur Objektversionierung und zum Schutz der Aufbewahrungsrichtlinie können nicht gleichzeitig aktiviert werden.  Weitere Informationen finden Sie in der Google Cloud-Dokumentation.<block ref="6c936e872cf9f9db10ad17b0ad1f1def" category="inline-link-rx"></block> , Und<block ref="95ae46b399b1a6e153ff9c25d6560bbd" category="inline-link-rx"></block> .</block>
+  <block id="969337c37786da417489bc2eb0b57a39" category="paragraph">*Datenverschlüsselungstools*</block>
+  <block id="bea9ae28243279b4d72ca9ec76d4819d" category="list-text">*Von Google verwalteter Verschlüsselungsschlüssel* – Standardmäßig werden zum Verschlüsseln Ihrer Daten von Google verwaltete Verschlüsselungsschlüssel verwendet.</block>
+  <block id="6519ac9fad5ea16668ccd56b326ee11c" category="list-text">*Vom Kunden verwalteter Verschlüsselungsschlüssel* – Sie können Ihre eigenen, vom Kunden verwalteten Schlüssel zur Datenverschlüsselung verwenden, anstatt die standardmäßig von Google verwalteten Verschlüsselungsschlüssel zu verwenden.  Wenn Sie Ihre eigenen, vom Kunden verwalteten Schlüssel verwenden möchten, müssen Sie diese bereits erstellt haben, damit Sie die Schlüssel auf dieser Seite auswählen können.</block>
+  <block id="4857078b6c32702e67177b54fbfbcc6b" category="paragraph">Die Schlüssel können sich im selben Projekt wie der Bucket befinden, oder Sie können ein anderes Projekt auswählen.</block>
+  <block id="7b2e299027f9ee1fde4dc8e0187b6d09" category="inline-link">Weitere Informationen zu von Google verwalteten Verschlüsselungsschlüsseln</block>
+  <block id="9a827fef64d338d7c253c4d9091f5a17" category="inline-link">Weitere Informationen zu kundenverwalteten Verschlüsselungsschlüsseln</block>
+  <block id="132d50bb589ed611fc56705df8d56633" category="paragraph">Weitere Informationen finden Sie in der Google Cloud-Dokumentation.<block ref="39187e739414effbe981ed478223343d" category="inline-link-rx"></block> , Und<block ref="895220e894f0ac66488c9a432691b1a2" category="inline-link-rx"></block> .</block>
+  <block id="a213be5d3f4ac9e5115a58f090c817fa" category="list-text">Klicken Sie auf *Hinzufügen* und der Bucket wird erstellt.</block>
+  <block id="b74d23cf93d017ed91b8cfcafc4134a4" category="summary">Wenn Ihr Google Cloud Storage-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Bucket-Eigenschaften direkt über die NetApp Console ändern.</block>
+  <block id="0d3b4d3bc62973f2ef853118ee87b964" category="doc">Ändern der Bucket-Einstellungen von Google Cloud Storage</block>
+  <block id="9547288cf6d11c5ef51962ab79d5a30e" category="paragraph">Beachten Sie, dass Sie den Bucket-Namen, das Google-Projekt oder die Schutzeinstellungen nicht ändern können.</block>
+  <block id="c1e90160a62fa1921449efb18231f40d" category="paragraph">Zu den Bucket-Eigenschaften, die Sie ändern können, gehören:</block>
+  <block id="0aafb11c2a9f47a75e18667cde3cece4" category="list-text">Speicherklasse für alle zukünftigen Objekte im Bucket.</block>
+  <block id="72bd4cff8828b9b49bc10220337d407f" category="list-text">Sie können den Objekten im Bucket Beschriftungen hinzufügen, bearbeiten und entfernen.</block>
+  <block id="dd7724034a0925357748c9ddcf14157b" category="list-text">Turbo-Replikationsmodus – nur, wenn sich der Bucket an einem Dual-Region-Standort befindet.</block>
+  <block id="8844ea245d7c08ab2233754002d80b15" category="inline-image-macro">die drei Punkte mehr-Schaltfläche</block>
+  <block id="9012b6afbfadbefb81dcfb8d275f58b2" category="paragraph">Sie können diese Bucket-Einstellungen direkt in der NetApp Console ändern, indem Sie auf<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> und dann *Bucketdetails bearbeiten* für einen Bucket.</block>
+  <block id="70635430b5bafdf9d4311deb47f5ed05" category="inline-image-macro">Ein Screenshot, der zeigt, wie Sie die Schaltfläche „Bucket-Details bearbeiten“ auswählen, um Bucket-Eigenschaften zu bearbeiten.</block>
+  <block id="aaa709f9b07e2de4b60aa905da9d6adb" category="paragraph"><block ref="aaa709f9b07e2de4b60aa905da9d6adb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="916e3861b96153c8e1d8fc7e7e7fa50d" category="section-title">Ändern der Speicherklasse</block>
+  <block id="5900950ec7ca39afee0db6a7937f3d93" category="paragraph">Im Abschnitt „Speicherklasse“ können Sie nur bestimmte Änderungen vornehmen:</block>
+  <block id="9d0ff57fc0479c3dc721bbe8eb604106" category="list-text">Wenn beim Erstellen des Buckets _Autoclass_ ausgewählt wurde, können Sie Autoclass deaktivieren und eine andere Speicherklasse auswählen.</block>
+  <block id="0fff26e35bfce134ffa24b2a89404acd" category="list-text">Wenn beim Erstellen des Buckets eine andere Speicherklasse ausgewählt wurde, können Sie zu jeder anderen Speicherklasse wechseln – außer _Autoclass_.</block>
+  <block id="b31bca7910ed7b9bac2229bc615803c4" category="paragraph">Objekte, die sich in einer anderen Klasse befanden, bleiben in dieser Klasse, aber alle neuen Objekte verwenden die neue Klasseneinstellung.</block>
+  <block id="b2dc0bd2780cad5457c930c2480da552" category="section-title">Beschriftungen für Objekte im Bucket hinzufügen oder ändern</block>
+  <block id="b5f1adffd55f74c60105b86fe9d99627" category="paragraph">Labels sind Metadaten, die Sie zum Gruppieren von Ressourcen verwenden können, um Anwendungen, Umgebungen, Regionen, Cloud-Anbieter und mehr zu identifizieren.  Beschriftungen bestehen aus einem Schlüssel und einem Wert.  Sie können einem Bucket Beschriftungen hinzufügen, sodass die Beschriftungen auf Objekte angewendet werden, wenn sie dem Bucket hinzugefügt werden.  Sie können auch Beschriftungen und Beschriftungswerte ändern und löschen.</block>
+  <block id="d60c0fbf7391096036689ddd23626717" category="paragraph">Nachdem Sie ein Etikett hinzugefügt oder bearbeitet haben, klicken Sie auf *Übernehmen*, um Ihre Änderungen zu speichern.  Wenn Sie weitere Labels hinzufügen möchten, klicken Sie auf *Neues Label hinzufügen*.  Sie können bis zu 10 Etiketten pro Eimer hinzufügen.</block>
+  <block id="949467ad042814d4c76b24fca2f4ac9b" category="section-title">Ändern, ob die Turboreplikation an Standorten mit zwei Regionen aktiviert ist</block>
+  <block id="ae7421788bf0ad960e56c7c6a19bd130" category="paragraph">Wenn sich der Bucket an einem Dual-Region-Standort befindet, können Sie den Turboreplikationsmodus aktivieren oder deaktivieren.  Durch die „Turbo-Replikation“ können Sie die Georedundanz für alle neu geschriebenen Objekte innerhalb eines Ziels von 15 Minuten garantieren.</block>
+  <block id="1abde1bd568332a66f7560bab9c6abf7" category="paragraph">Nach der Erstellung des Buckets können keine weiteren Standortdetails mehr geändert werden.</block>
+  <block id="a0b50004b97c7a4f46385276d68e34a7" category="summary">Wenn Sie Google Cloud Storage-Buckets in der NetApp Console entdecken, können Sie NetApp Datendienste für Backup, Tiering und Datensynchronisierung verwenden.</block>
+  <block id="fd34ce45befcc2d966ed75e41ee9ec98" category="doc">Verwenden Sie NetApp Datendienste mit Google Cloud Storage-Buckets</block>
+  <block id="6eec2824293226fbb73f35f2f970313a" category="list-text">Verwenden Sie * NetApp Backup and Recovery*, um Daten von Ihren lokalen ONTAP und Cloud Volumes ONTAP -Systemen im Google Cloud-Objektspeicher zu sichern.</block>
+  <block id="b664cd749debb1660d94de21917e9bcf" category="paragraph">Um zu beginnen, gehen Sie zur Seite „Systeme“ und ziehen Sie per Drag &amp; Drop ein lokales ONTAP oder Cloud Volumes ONTAP -System auf Ihr Google Cloud Storage-System.</block>
+  <block id="c08915205c4a9681660dba7a6f50b538" category="inline-link">Erfahren Sie mehr über die Sicherung von ONTAP -Daten in Google Cloud Storage</block>
+  <block id="9533c54f00ea1d4d66844f3405b6c4ce" category="paragraph"><block ref="5d3ceb9b500f2ef5287b2cf7f8b4b49b" category="inline-link-rx"></block> .</block>
+  <block id="ddabeb67c8c21fe25d7edc559236bd81" category="list-text">Verwenden Sie * NetApp Cloud Tiering*, um inaktive Daten von lokalen ONTAP Clustern in den Google Cloud-Objektspeicher zu verschieben.</block>
+  <block id="6457c6499bcca5ff6b6101b3924b3ccf" category="paragraph">Um zu beginnen, gehen Sie zur Seite „Systeme“ und ziehen Sie per Drag &amp; Drop ein lokales ONTAP -System auf Ihr Google Cloud Storage-System.</block>
+  <block id="5a40e1765360a8aab7fbfc4293b302ed" category="inline-link">Erfahren Sie mehr über das Tiering von ONTAP -Daten in Google Cloud Storage</block>
+  <block id="183dff5fb1ffd100c58928070e663e23" category="paragraph"><block ref="6ca93414812da4fe368837198fd5604b" category="inline-link-rx"></block> .</block>
+  <block id="dc07e5f0fdc4b5b5e0c100b3eb6868ed" category="list-text">Verwenden Sie * NetApp Copy and Sync*, um Daten mit oder von Google Cloud Storage-Buckets zu synchronisieren.</block>
+  <block id="fc6687e5fc363c86ac8b9915c21c9fe7" category="paragraph">Um zu beginnen, gehen Sie zur Seite „Systeme“ und ziehen Sie das Quellsystem per Drag &amp; Drop auf das Zielsystem. Ihr Google Cloud Storage-System kann entweder die Quelle oder das Ziel sein.</block>
+  <block id="82881e5f80de8e3590c1cf4dac16c6e8" category="paragraph">Sie können auch Ihr Google Cloud Storage-System auswählen und im Bereich „Dienste“ auf „Kopieren und synchronisieren“ klicken, um Daten mit oder von Cloud Storage-Buckets zu synchronisieren.</block>
+  <block id="7424858b35d2a117bda2b2aad954a43a" category="inline-link">Erfahren Sie mehr über den NetApp Copy and Sync Service</block>
+  <block id="de55534e3d256b506c871b32b3a04544" category="paragraph"><block ref="2780643f58a564704910545a96ecd829" category="inline-link-rx"></block> .</block>
+  <block id="e48486c33f71dc8e173adb6c6fc66485" category="summary">NetApp bietet auf verschiedene Weise Support für die NetApp Console . Umfangreiche kostenlose Self-Support-Optionen stehen rund um die Uhr zur Verfügung, beispielsweise Knowledgebase-Artikel (KB) und ein Community-Forum. Ihre Support-Registrierung beinhaltet technischen Remote-Support per Web-Ticketing.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Hilfe erhalten</block>
+  <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp bietet auf vielfältige Weise Support für die NetApp Console und ihre Cloud-Dienste. Umfangreiche kostenlose Selbsthilfeoptionen stehen rund um die Uhr zur Verfügung, beispielsweise Knowledge Base-Artikel (KB) und ein Community-Forum. Ihre Support-Registrierung beinhaltet technischen Remote-Support per Web-Ticketing.</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Erhalten Sie Unterstützung für den Dateidienst eines Cloud-Anbieters</block>
+  <block id="317cbd2c4fdbfd06a6c66bcd3f57d7ad" category="paragraph">Technischen Support zu einem Dateidienst eines Cloud-Anbieters, seiner Infrastruktur oder einer Lösung, die den Dienst nutzt, finden Sie in der Dokumentation zu diesem Produkt.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx für ONTAP</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="68e6fe8cde496154d24fd032b4262070" category="paragraph">Um technischen Support speziell für NetApp und seine Speicherlösungen und Datendienste zu erhalten, verwenden Sie die unten beschriebenen Supportoptionen.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Nutzen Sie Möglichkeiten zur Selbsthilfe</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Diese Optionen stehen Ihnen 24 Stunden am Tag, 7 Tage die Woche kostenlos zur Verfügung:</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Dokumentation</block>
+  <block id="5bb94d173380c00577f5e04b6f26bb94" category="paragraph">Die NetApp Console Konsolendokumentation, die Sie gerade anzeigen.</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Wissensdatenbank</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="0e20091afcea2d83d0033a933ba85092" category="paragraph">Durchsuchen Sie die NetApp Wissensdatenbank nach hilfreichen Artikeln zur Problembehebung.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Gemeinschaften</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="777d75a90b107e4f18469f82c4f81fe2" category="paragraph">Treten Sie der NetApp Console Community bei, um aktuelle Diskussionen zu verfolgen oder neue zu starten.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Erstellen Sie einen Fall mit dem NetApp Support</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Zusätzlich zu den oben genannten Self-Support-Optionen können Sie nach der Aktivierung des Supports mit einem NetApp -Support-Spezialisten zusammenarbeiten, um alle Probleme zu lösen.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">Bevor Sie beginnen</block>
+  <block id="c406bf0ac8ac87bc5bb7132a7351b2ae" category="inline-link">Erfahren Sie, wie Sie die mit Ihrer Konsolenanmeldung verknüpften Anmeldeinformationen verwalten.</block>
+  <block id="377118f28487e70bd456993144b72fc7" category="list-text">Um die Funktion *Fall erstellen* zu verwenden, müssen Sie zunächst Ihre Anmeldeinformationen für die NetApp -Support-Site mit Ihrem Konsolen-Login verknüpfen.<block ref="68c4321a756e3ffe955b62cff6fea46d" category="inline-link-rx"></block> .</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">Wenn Sie einen Fall für ein ONTAP -System mit einer Seriennummer eröffnen, muss Ihr NSS-Konto mit der Seriennummer für dieses System verknüpft sein.</block>
+  <block id="0ab80a63088581d58dcf067051f4c894" category="list-text">Wählen Sie in der NetApp Console*Hilfe &gt; Support*.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">Wählen Sie auf der Seite *Ressourcen* unter „Technischer Support“ eine der verfügbaren Optionen aus:</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Wählen Sie *Rufen Sie uns an*, wenn Sie mit jemandem telefonieren möchten. Sie werden zu einer Seite auf netapp.com weitergeleitet, auf der die Telefonnummern aufgeführt sind, die Sie anrufen können.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Wählen Sie *Fall erstellen*, um ein Ticket bei einem NetApp -Support-Spezialisten zu öffnen:</block>
+  <block id="a1123cd59d7bd876c080c33906ae65ce" category="list-text">*Dienst*: Wählen Sie den Dienst aus, mit dem das Problem verknüpft ist. Beispiel: * NetApp Console*, wenn es sich speziell um ein technisches Supportproblem mit Workflows oder Funktionen innerhalb der Konsole handelt.</block>
+  <block id="987df7518e2afb50a860647c832afd13" category="list-text">*System*: Wählen Sie, falls für den Speicher zutreffend, * Cloud Volumes ONTAP* oder *On-Prem* und dann die zugehörige Arbeitsumgebung aus.</block>
+  <block id="8f8e8a86e5f52b6186a37bdf266c4320" category="paragraph">Die Liste der Systeme liegt im Rahmen der Konsolenorganisation und des Konsolenagenten, den Sie im oberen Banner ausgewählt haben.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Fallpriorität*: Wählen Sie die Priorität für den Fall. Sie kann „Niedrig“, „Mittel“, „Hoch“ oder „Kritisch“ sein.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Um weitere Einzelheiten zu diesen Prioritäten zu erfahren, bewegen Sie die Maus über das Informationssymbol neben dem Feldnamen.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Problembeschreibung*: Geben Sie eine detaillierte Beschreibung Ihres Problems an, einschließlich aller zutreffenden Fehlermeldungen oder Schritte zur Fehlerbehebung, die Sie durchgeführt haben.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Zusätzliche E-Mail-Adressen*: Geben Sie zusätzliche E-Mail-Adressen ein, wenn Sie jemand anderen auf dieses Problem aufmerksam machen möchten.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Anhang (optional)*: Laden Sie bis zu fünf Anhänge hoch, einen nach dem anderen.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Anhänge sind auf 25 MB pro Datei begrenzt. Die folgenden Dateierweiterungen werden unterstützt: txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx und csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Ein Screenshot des Formulars „Fall erstellen“, mit dem Sie einen Fall beim NetApp Support erstellen können.</block>
+  <block id="77c89527ec8a9f89b24c5579d19b3b4b" category="paragraph"><block ref="77c89527ec8a9f89b24c5579d19b3b4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Nach Abschluss</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Es erscheint ein Popup mit Ihrer Support-Fallnummer. Ein NetApp -Support-Spezialist wird Ihren Fall prüfen und sich in Kürze bei Ihnen melden.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">Um einen Verlauf Ihrer Supportfälle anzuzeigen, können Sie *Einstellungen &gt; Zeitleiste* auswählen und nach Aktionen mit der Bezeichnung „Supportfall erstellen“ suchen. Über eine Schaltfläche ganz rechts können Sie die Aktion erweitern, um Details anzuzeigen.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Beim Versuch, einen Fall zu erstellen, kann es sein, dass die folgende Fehlermeldung angezeigt wird:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">„Sie sind nicht berechtigt, einen Fall für den ausgewählten Dienst zu erstellen.“</block>
+  <block id="178fdaf97b1d1577437f11ee9d5e5229" category="paragraph">Dieser Fehler könnte bedeuten, dass das NSS-Konto und das damit verknüpfte Unternehmen nicht dasselbe Unternehmen sind, für das die Seriennummer des NetApp Console gilt (d. h. 960xxxx) oder die Seriennummer der Arbeitsumgebung. Sie können auf eine der folgenden Arten Hilfe anfordern:</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Senden Sie einen nicht-technischen Fall an<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="e1100b46295d42ed50ba7a4630710164" category="section-title">Verwalten Sie Ihre Supportfälle</block>
+  <block id="316508a3483178100806a9d44b49aba2" category="paragraph">Sie können aktive und gelöste Supportfälle direkt von der Konsole aus anzeigen und verwalten. Sie können die mit Ihrem NSS-Konto und Ihrem Unternehmen verknüpften Fälle verwalten.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Beachten Sie Folgendes:</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">Das Fallmanagement-Dashboard oben auf der Seite bietet zwei Ansichten:</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">Die Ansicht links zeigt die Gesamtzahl der Fälle, die in den letzten drei Monaten von dem von Ihnen angegebenen NSS-Benutzerkonto eröffnet wurden.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">Die Ansicht rechts zeigt die Gesamtzahl der in den letzten drei Monaten auf Unternehmensebene eröffneten Fälle basierend auf Ihrem NSS-Benutzerkonto.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">Die Ergebnisse in der Tabelle spiegeln die Fälle wider, die mit der von Ihnen ausgewählten Ansicht in Zusammenhang stehen.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Sie können interessante Spalten hinzufügen oder entfernen und den Inhalt von Spalten wie „Priorität“ und „Status“ filtern. Andere Spalten bieten lediglich Sortierfunktionen.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Weitere Einzelheiten finden Sie in den folgenden Schritten.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">Auf Einzelfallebene bieten wir die Möglichkeit, Fallnotizen zu aktualisieren oder einen Fall zu schließen, der sich noch nicht im Status „Abgeschlossen“ oder „Ausstehend abgeschlossen“ befindet.</block>
+  <block id="9163e8bca6fd93c080d35ab49e3efdfa" category="list-text">Wählen Sie in der NetApp Console*Hilfe &gt; Support*.</block>
+  <block id="2019fd19051c3ef493dbbb9ca65bab87" category="list-text">Wählen Sie *Fallmanagement* und fügen Sie bei entsprechender Aufforderung Ihr NSS-Konto zur Konsole hinzu.</block>
+  <block id="75e54e3a6fdbf43ed890669e079d7594" category="paragraph">Auf der Seite *Fallverwaltung* werden offene Fälle angezeigt, die sich auf das NSS-Konto beziehen, das mit Ihrem Konsolenbenutzerkonto verknüpft ist. Dies ist dasselbe NSS-Konto, das oben auf der *NSS-Verwaltungsseite* angezeigt wird.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Ändern Sie optional die in der Tabelle angezeigten Informationen:</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">Wählen Sie unter *Fälle der Organisation* die Option *Anzeigen* aus, um alle mit Ihrem Unternehmen verknüpften Fälle anzuzeigen.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Ändern Sie den Datumsbereich, indem Sie einen genauen Datumsbereich oder einen anderen Zeitrahmen auswählen.</block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtern Sie den Inhalt der Spalten.</block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">Das Plus-Symbol, das in der Tabelle angezeigt wird</block>
+  <block id="8ac6be88c1aa79062825a147fb263b0e" category="list-text">Ändern Sie die in der Tabelle angezeigten Spalten, indem Sie<block ref="500a336e7ba1c54bcffba4e27bda4eb6" category="inline-image-macro-rx" type="image"></block> und wählen Sie dann die Spalten aus, die Sie anzeigen möchten.</block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Ein Symbol mit drei Punkten, das in der letzten Spalte der Tabelle erscheint</block>
+  <block id="049b7b9fab1242f5e715952973c9474d" category="list-text">Verwalten Sie einen vorhandenen Fall, indem Sie<block ref="7381d9baeaf62eb099ce84f1a21ed5ca" category="inline-image-macro-rx" type="image"></block> und wählen Sie eine der verfügbaren Optionen aus:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Fall anzeigen*: Alle Details zu einem bestimmten Fall anzeigen.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Fallnotizen aktualisieren*: Geben Sie zusätzliche Details zu Ihrem Problem an oder wählen Sie *Dateien hochladen*, um bis zu fünf Dateien anzuhängen.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Fall schließen*: Geben Sie Details zum Grund für das Schließen des Falls an und wählen Sie *Fall schließen* aus.</block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">Bevor Sie einen Supportfall beim technischen Support von NetApp eröffnen können, müssen Sie der NetApp Console ein NetApp -Support-Site-Konto hinzufügen und sich dann für den Support registrieren.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Für Support registrieren</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">Um technischen Support speziell für die NetApp Console und ihre Speicherlösungen und Datendienste zu erhalten, ist eine Support-Registrierung erforderlich. Eine Support-Registrierung ist auch erforderlich, um wichtige Workflows für Cloud Volumes ONTAP Systeme zu aktivieren.</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">Durch die Registrierung für den Support wird kein NetApp Support für den Dateidienst eines Cloud-Anbieters aktiviert. Technischen Support für den Dateidienst eines Cloud-Anbieters, seine Infrastruktur oder eine Lösung, die den Dienst nutzt, erhalten Sie unter „Hilfe erhalten“ in der Dokumentation des jeweiligen Produkts.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Übersicht zur Support-Registrierung</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Zur Aktivierung des Supportanspruchs stehen zwei Registrierungsformen zur Verfügung:</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">Registrieren Sie die Seriennummer Ihres NetApp Console (Ihre 20-stellige Seriennummer 960xxxxxxxxx, die Sie auf der Seite „Supportressourcen“ in der Konsole finden).</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">Dies dient als Ihre einzige Support-Abonnement-ID für alle Dienste innerhalb der Konsole. Jedes Konsolenkonto muss registriert werden.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrieren Sie die mit einem Abonnement verknüpften Cloud Volumes ONTAP Seriennummern im Marktplatz Ihres Cloud-Anbieters (dies sind 20-stellige 909201xxxxxxxx-Seriennummern).</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">Diese Seriennummern werden allgemein als _PAYGO-Seriennummern_ bezeichnet und von der NetApp Console zum Zeitpunkt der Bereitstellung von Cloud Volumes ONTAP generiert.</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">Durch die Registrierung beider Seriennummerntypen werden Funktionen wie das Öffnen von Support-Tickets und die automatische Fallgenerierung ermöglicht. Die Registrierung wird abgeschlossen, indem Sie der Konsole NetApp Support Site (NSS)-Konten hinzufügen, wie unten beschrieben.</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">Registrieren Sie die NetApp Console für den NetApp Support</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">Um sich für den Support zu registrieren und den Supportanspruch zu aktivieren, muss ein Benutzer in Ihrem NetApp Console seinem Konsolen-Login ein NetApp Support-Site-Konto zuordnen. Wie Sie sich für den NetApp Support registrieren, hängt davon ab, ob Sie bereits über ein NetApp Support Site (NSS)-Konto verfügen.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Bestandskunde mit NSS-Konto</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">Wenn Sie ein NetApp -Kunde mit einem NSS-Konto sind, müssen Sie sich lediglich über die Konsole für den Support registrieren.</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">Wählen Sie *Administration* &gt; *Anmeldeinformationen*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Wählen Sie *Benutzeranmeldeinformationen*.</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">Wählen Sie *NSS-Anmeldeinformationen hinzufügen* und folgen Sie der Authentifizierungsaufforderung der NetApp Support Site (NSS).</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Um zu bestätigen, dass der Registrierungsvorgang erfolgreich war, wählen Sie das Hilfesymbol und dann *Support*.</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">Auf der Seite *Ressourcen* sollte angezeigt werden, dass Ihr Konsolenkonto für den Support registriert ist.</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">Beachten Sie, dass anderen Konsolenbenutzern dieser Support-Registrierungsstatus nicht angezeigt wird, wenn sie ihrem Login kein NetApp Support Site-Konto zugeordnet haben. Dies bedeutet jedoch nicht, dass Ihr Konto nicht für den Support registriert ist. Sofern ein Benutzer in der Organisation diese Schritte befolgt hat, wurde Ihr Konto registriert.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Bestandskunde, aber kein NSS-Konto</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">Wenn Sie bereits NetApp -Kunde mit vorhandenen Lizenzen und Seriennummern, aber _keinem_ NSS-Konto sind, müssen Sie ein NSS-Konto erstellen und es mit Ihrem Konsolen-Login verknüpfen.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Registrierungsformular für Benutzer der NetApp Support-Site</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Erstellen Sie ein NetApp Support Site-Konto, indem Sie das<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Achten Sie darauf, die entsprechende Benutzerebene auszuwählen, in der Regel „NetApp -Kunde/Endbenutzer“.</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">Denken Sie daran, die Seriennummer des Konsolenkontos (960xxxx) zu kopieren, die oben für das Feld „Seriennummer“ verwendet wurde. Dies beschleunigt die Kontobearbeitung.</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">Verknüpfen Sie Ihr neues NSS-Konto mit Ihrem Konsolen-Login, indem Sie die folgenden Schritte ausführen<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Ganz neu bei NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Wenn Sie NetApp noch nicht kennen und kein NSS-Konto haben, befolgen Sie die nachstehenden Schritte.</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">Wählen Sie oben rechts in der Konsole das Hilfesymbol und dann *Support* aus.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Suchen Sie auf der Support-Registrierungsseite nach der Seriennummer Ihrer Konto-ID.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist.</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Support-Registrierungssite von NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navigieren Sie zu<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> und wählen Sie *Ich bin kein registrierter NetApp -Kunde*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Füllen Sie die Pflichtfelder (mit roten Sternchen gekennzeichnet) aus.</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Wählen Sie im Feld *Produktlinie* *Cloud Manager* und dann Ihren entsprechenden Abrechnungsanbieter aus.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Kopieren Sie die Seriennummer Ihres Kontos aus Schritt 2 oben, schließen Sie die Sicherheitsüberprüfung ab und bestätigen Sie anschließend, dass Sie die globale Datenschutzrichtlinie von NetApp gelesen haben.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Um diese sichere Transaktion abzuschließen, wird umgehend eine E-Mail an das angegebene Postfach gesendet. Überprüfen Sie unbedingt Ihren Spam-Ordner, wenn die Bestätigungs-E-Mail nicht innerhalb weniger Minuten eintrifft.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Bestätigen Sie die Aktion in der E-Mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">Durch die Bestätigung wird Ihre Anfrage an NetApp übermittelt und es wird empfohlen, dass Sie ein NetApp Support Site-Konto erstellen.</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">Denken Sie daran, die oben für das Seriennummernfeld verwendete Kontoseriennummer (960xxxx) zu kopieren. Dadurch wird die Bearbeitung beschleunigt.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp sollte sich während dieses Vorgangs mit Ihnen in Verbindung setzen. Dies ist eine einmalige Onboarding-Übung für neue Benutzer.</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">Sobald Sie über Ihr NetApp Support Site-Konto verfügen, verknüpfen Sie das Konto mit Ihrem Konsolen-Login, indem Sie die folgenden Schritte ausführen<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">NSS-Anmeldeinformationen für Cloud Volumes ONTAP Support zuordnen</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">Um die folgenden wichtigen Workflows für Cloud Volumes ONTAP zu aktivieren, müssen Sie Ihrem Konsolenkonto Anmeldeinformationen für die NetApp Support Site zuordnen:</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">Registrieren von Pay-as-you-go Cloud Volumes ONTAP Systemen für den Support</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">Die Angabe Ihres NSS-Kontos ist erforderlich, um den Support für Ihr System zu aktivieren und Zugriff auf die technischen Supportressourcen von NetApp zu erhalten.</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">Bereitstellen von Cloud Volumes ONTAP mit eigener Lizenz (BYOL)</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">Die Angabe Ihres NSS-Kontos ist erforderlich, damit die Konsole Ihren Lizenzschlüssel hochladen und das Abonnement für die von Ihnen erworbene Laufzeit aktivieren kann. Hierzu gehören automatische Updates bei Laufzeitverlängerungen.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Aktualisieren der Cloud Volumes ONTAP -Software auf die neueste Version</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">Die Zuordnung von NSS-Anmeldeinformationen zu Ihrem NetApp Console unterscheidet sich von der Zuordnung des NSS-Kontos zu einer Konsolenbenutzeranmeldung.</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">Diese NSS-Anmeldeinformationen sind mit Ihrer spezifischen Konsolenkonto-ID verknüpft. Benutzer, die zur Konsolenorganisation gehören, können über *Support &gt; NSS-Verwaltung* auf diese Anmeldeinformationen zugreifen.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Wenn Sie über ein Konto auf Kundenebene verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Wenn Sie über ein Partner- oder Reseller-Konto verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen, diese können jedoch nicht zusammen mit Konten auf Kundenebene hinzugefügt werden.</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Wählen Sie *NSS-Verwaltung &gt; NSS-Konto hinzufügen*.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Wenn Sie dazu aufgefordert werden, wählen Sie *Weiter*, um zu einer Microsoft-Anmeldeseite weitergeleitet zu werden.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp verwendet Microsoft Entra ID als Identitätsanbieter für Authentifizierungsdienste speziell für Support und Lizenzierung.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Geben Sie auf der Anmeldeseite Ihre bei der NetApp Support Site registrierte E-Mail-Adresse und Ihr Kennwort ein, um den Authentifizierungsprozess durchzuführen.</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">Diese Aktionen ermöglichen der Konsole, Ihr NSS-Konto für Dinge wie Lizenzdownloads, Überprüfung von Software-Upgrades und zukünftige Support-Registrierungen zu verwenden.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">Das NSS-Konto muss ein Konto auf Kundenebene sein (kein Gast- oder temporäres Konto). Sie können mehrere NSS-Konten auf Kundenebene haben.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Es kann nur ein NSS-Konto geben, wenn es sich bei diesem Konto um ein Konto auf Partnerebene handelt. Wenn Sie versuchen, NSS-Konten auf Kundenebene hinzuzufügen und ein Konto auf Partnerebene vorhanden ist, erhalten Sie die folgende Fehlermeldung:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">„Der NSS-Kundentyp ist für dieses Konto nicht zulässig, da bereits NSS-Benutzer eines anderen Typs vorhanden sind.“</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Dasselbe gilt, wenn Sie bereits über NSS-Konten auf Kundenebene verfügen und versuchen, ein Konto auf Partnerebene hinzuzufügen.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Nach erfolgreicher Anmeldung speichert NetApp den NSS-Benutzernamen.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Ein Symbol mit drei horizontalen Punkten</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Dies ist eine vom System generierte ID, die Ihrer E-Mail-Adresse zugeordnet ist. Auf der Seite *NSS-Verwaltung* können Sie Ihre E-Mail-Adresse aus dem<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> Speisekarte.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Wenn Sie Ihre Anmeldeinformationen aktualisieren müssen, gibt es auch die Option *Anmeldeinformationen aktualisieren* im<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> Speisekarte.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Bei Verwendung dieser Option werden Sie aufgefordert, sich erneut anzumelden. Beachten Sie, dass das Token für diese Konten nach 90 Tagen abläuft. Sie werden durch eine entsprechende Benachrichtigung darauf aufmerksam gemacht.</block>
+  <block id="3bd7f55fd0233105eacd5464f82bb628" category="summary">Nachdem Sie einen Konsolenagenten in Google Cloud installiert haben, kann die NetApp Console automatisch Informationen zu den Google Cloud-Buckets ermitteln, die sich in dem Google-Konto befinden, in dem der Konsolenagent installiert ist.  Damit Sie diese Informationen anzeigen können, wird der NetApp Console ein Google Cloud Storage-System hinzugefügt.</block>
+  <block id="82f74539a8232efa9fe9d44fbb820377" category="doc">Zeigen Sie Ihre Google Cloud Storage-Buckets an</block>
+  <block id="b732ef530155dfaeda0229e5aa059363" category="paragraph">Nachdem Sie einen Konsolenagenten in Google Cloud installiert haben, kann die NetApp Console automatisch Informationen zu den Google Cloud Storage-Buckets ermitteln, die sich in dem Google-Konto befinden, in dem der Konsolenagent installiert ist.  Damit Sie diese Informationen anzeigen können, wird der Konsole ein Google Cloud Storage-System hinzugefügt.</block>
+  <block id="985609e7805f0689e27615e3b599c194" category="paragraph">Sie können Details zu Ihren Google Cloud Storage-Buckets anzeigen, einschließlich Standort, Zugriffsstatus, Speicherklasse, Gesamt- und genutzte Kapazität und mehr.  Diese Buckets können als Ziele für NetApp Backup and Recovery, NetApp Cloud Tiering oder NetApp Copy and Sync Vorgänge verwendet werden.</block>
+  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">Installieren eines Konsolenagenten</block>
+  <block id="26fd8af3caa4a2081d41f48d8ea6546f" category="list-text"><block ref="97439b1e5c416900c657e46e3f6cda81" category="inline-link-rx"></block>in dem Google-Konto, in dem Sie Ihre Google Cloud Storage-Buckets anzeigen möchten.</block>
+  <block id="68ab6a6d7a40667d53edebc13dbf3f3a" category="list-text">Wählen Sie im NetApp Console *Storage* und dann *Management* aus.</block>
+  <block id="3be94e16cee7c087c2ed64b9fde6725c" category="paragraph">Kurz darauf sollte automatisch ein Google Cloud Storage-System angezeigt werden.</block>
+  <block id="1f040b1669214d2ec42a2dc81e1cdbdb" category="inline-image-macro">Ein Screenshot eines Google Cloud Storage-Systems.</block>
+  <block id="7fc41af047f19fa6008824c3b962bfde" category="paragraph"><block ref="7fc41af047f19fa6008824c3b962bfde" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0fbcf91b7ce25c3462b5cf49302ab9ad" category="list-text">Wählen Sie das System aus und wählen Sie im rechten Bereich eine Aktion aus, wenn Sie NetApp Console -Dienste mit Ihrem Google Cloud Storage aktivieren möchten.</block>
+  <block id="a3034411dc5855900610ff3b3e738218" category="inline-link-macro">Sehen Sie, welche NetApp Console -Dienste verfügbar sind und erfahren Sie, wie Sie diese mit Ihren Google Cloud Storage-Buckets nutzen können.</block>
+  <block id="09d52cc74d65185618e3e7f6cebf9be5" category="paragraph"><block ref="afa4b80f3ed3d6f8dbe02302a1bd61bc" category="inline-link-macro-rx"></block> .</block>
+  <block id="3baf5b637b04a23193dc298d42f92942" category="list-text">Wählen Sie *System eingeben* oder doppelklicken Sie auf das System, um Details zu den Buckets in Ihrem Google-Konto anzuzeigen.</block>
+  <block id="2a915405a39225912a23c3f3e95eabe5" category="paragraph">Zusätzlich zu den standardmäßig angezeigten Spalten können Sie auf der Seite scrollen, um weitere Eigenschaften für den Bucket anzuzeigen, beispielsweise die Anzahl der Labels und den aktivierten Verschlüsselungstyp.</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">Was kommt als nächstes</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">Hier finden Sie weitere Einzelheiten</block>
+  <block id="c11d9a1abf7db811d71989ac30c4fd00" category="paragraph">Sie können einige Bucket-Einstellungen direkt in der Konsole ändern, indem Sie auf<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> für einen Eimer. <block ref="46472ff1878a0915ac417b4b33b1fe26" category="inline-link-macro-rx"></block> .</block>
+  <block id="198cca19ca92b085c865c5298e3ad918" category="paragraph">Sie können neue Buckets hinzufügen, indem Sie auf *Bucket hinzufügen* klicken. <block ref="d57c52dcffc5f4dd99aa7ac4c9f10f01" category="inline-link-macro-rx"></block> .</block>
+  <block id="22c483e7262e3a6fa9373468ab803b8b" category="summary">Informieren Sie sich in der NetApp Console über die Neuerungen bei Google Cloud Storage.</block>
+  <block id="c36f7b01001c9368b68c15b5e6e226da" category="doc">Was ist neu bei Google Cloud Storage in der NetApp Console?</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06. Oktober 2025</block>
+  <block id="145634d473d937448dc7bdb5a6797ea7" category="section-title">10. Juli 2023</block>
+  <block id="52f479db147f5b791e9e52d65b82e4b9" category="sidebar">Beginnen Sie mit der Verwendung von Google Cloud Storage mit der NetApp Console.</block>
+  <block id="b8a01d27e4bfb237e9b96453c804f1f3" category="sidebar">Google Cloud Storage-Dokumentation</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Erste Schritte</block>
+  <block id="179541d836ec954dce16de1c1b8bcf5d" category="sidebar">Verwalten von Google Cloud Storage-Buckets</block>
+  <block id="3d68ddcff8554ec7a179719384e80e1a" category="sidebar">Buckets hinzufügen</block>
+  <block id="9734d11f1da890ec7434857fd054fb47" category="sidebar">Bucket-Einstellungen ändern</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">Weitere Informationen</block>
+  <block id="61a0700c802690deb5dd6129f47c3282" category="sidebar">Google Cloud Storage-Dokumentation für die Verwaltung außerhalb der NetApp Console</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs und Community</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetApp Console</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
+  <block id="b83e711561263aa7a3404d6bb2624f6e" category="sidebar">Google Cloud Storage-Dokumente</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Versionshinweise</block>
+  <block id="d32273f4c8b837bea371415ed255825c" category="sidebar">Neue Buckets hinzufügen</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Unterstützung</block>
+</blocks>
