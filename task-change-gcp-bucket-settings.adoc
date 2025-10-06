@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: task-change-gcp-bucket-settings.html 
+keywords: google cloud storage buckets, google cloud storage, edit buckets, change buckets 
+summary: Wenn Ihr Google Cloud Storage-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Bucket-Eigenschaften direkt über die NetApp Konsole ändern. 
+---
+= Ändern der Bucket-Einstellungen von Google Cloud Storage
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn Ihr Google Cloud Storage-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Bucket-Eigenschaften direkt über die NetApp Konsole ändern.
+
+Beachten Sie, dass Sie den Bucket-Namen, das Google-Projekt oder die Schutzeinstellungen nicht ändern können.
+
+Zu den Bucket-Eigenschaften, die Sie ändern können, gehören:
+
+* Speicherklasse für alle zukünftigen Objekte im Bucket.
+* Sie können den Objekten im Bucket Beschriftungen hinzufügen, bearbeiten und entfernen.
+* Turbo-Replikationsmodus – nur, wenn sich der Bucket an einem Dual-Region-Standort befindet.
+
+
+Sie können diese Bucket-Einstellungen direkt in der NetApp -Konsole ändern, indem Sie aufimage:button-horizontal-more.gif["die drei Punkte mehr-Schaltfläche"] und dann *Bucketdetails bearbeiten* für einen Bucket.
+
+image:screenshot-edit-gcp-bucket.png["Ein Screenshot, der zeigt, wie Sie die Schaltfläche „Bucket-Details bearbeiten“ auswählen, um Bucket-Eigenschaften zu bearbeiten."]
+
+
+
+== Ändern der Speicherklasse
+
+Im Abschnitt „Speicherklasse“ können Sie nur bestimmte Änderungen vornehmen:
+
+* Wenn beim Erstellen des Buckets _Autoclass_ ausgewählt wurde, können Sie Autoclass deaktivieren und eine andere Speicherklasse auswählen.
+* Wenn beim Erstellen des Buckets eine andere Speicherklasse ausgewählt wurde, können Sie zu jeder anderen Speicherklasse wechseln – außer _Autoclass_.
+
+
+Objekte, die sich in einer anderen Klasse befanden, bleiben in dieser Klasse, aber alle neuen Objekte verwenden die neue Klasseneinstellung.
+
+
+
+== Beschriftungen für Objekte im Bucket hinzufügen oder ändern
+
+Labels sind Metadaten, die Sie zum Gruppieren von Ressourcen verwenden können, um Anwendungen, Umgebungen, Regionen, Cloud-Anbieter und mehr zu identifizieren.  Beschriftungen bestehen aus einem Schlüssel und einem Wert.  Sie können einem Bucket Beschriftungen hinzufügen, sodass die Beschriftungen auf Objekte angewendet werden, wenn sie dem Bucket hinzugefügt werden.  Sie können auch Beschriftungen und Beschriftungswerte ändern und löschen.
+
+Nachdem Sie ein Etikett hinzugefügt oder bearbeitet haben, klicken Sie auf *Übernehmen*, um Ihre Änderungen zu speichern.  Wenn Sie weitere Labels hinzufügen möchten, klicken Sie auf *Neues Label hinzufügen*.  Sie können bis zu 10 Etiketten pro Eimer hinzufügen.
+
+
+
+== Ändern, ob die Turboreplikation an Standorten mit zwei Regionen aktiviert ist
+
+Wenn sich der Bucket an einem Dual-Region-Standort befindet, können Sie den Turboreplikationsmodus aktivieren oder deaktivieren.  Durch die „Turbo-Replikation“ können Sie die Georedundanz für alle neu geschriebenen Objekte innerhalb eines Ziels von 15 Minuten garantieren.
+
+Nach der Erstellung des Buckets können keine weiteren Standortdetails mehr geändert werden.

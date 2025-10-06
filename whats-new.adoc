@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: Informieren Sie sich über die Neuerungen bei Google Cloud Storage in der NetApp Konsole. 
+---
+= Was ist neu bei Google Cloud Storage in der NetApp Konsole?
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Informieren Sie sich über die Neuerungen bei Google Cloud Storage in der NetApp Konsole.
+
+
+
+== 06. Oktober 2025
+
+
+
+=== BlueXP heißt jetzt NetApp Console
+
+Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp Storage und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Administration mit hoher Sicherheit und Konformität.
+
+Einzelheiten zu den Änderungen finden Sie imlink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Versionshinweise zur NetApp Konsole"] .
+
+
+
+== 10. Juli 2023
+
+
+
+=== Möglichkeit, neue Buckets hinzuzufügen und vorhandene Buckets von BlueXP aus zu verwalten
+
+Sie können Google Cloud Storage-Buckets eine ganze Weile lang auf dem BlueXP Canvas anzeigen. Jetzt können Sie direkt von BlueXP aus neue Buckets hinzufügen und Eigenschaften für vorhandene Buckets ändern. https://docs.netapp.com/us-en/storage-management-google-cloud-storage/task-add-gcp-bucket.html["Erfahren Sie, wie Sie neue Google Cloud Storage-Buckets hinzufügen"] .

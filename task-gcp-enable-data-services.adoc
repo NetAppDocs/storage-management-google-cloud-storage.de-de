@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task-gcp-enable-data-services.html 
+keywords: google buckets, google storage, google cloud storage working environment, google cloud storage buckets, system 
+summary: Wenn Sie Google Cloud Storage-Buckets in der NetApp Konsole entdecken, können Sie NetApp Datendienste für Backup, Tiering und Datensynchronisierung verwenden. 
+---
+= Verwenden Sie NetApp Datendienste mit Google Cloud Storage-Buckets
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn Sie Google Cloud Storage-Buckets in der NetApp Konsole entdecken, können Sie NetApp Datendienste für Backup, Tiering und Datensynchronisierung verwenden.
+
+* Verwenden Sie * NetApp Backup and Recovery*, um Daten von Ihren lokalen ONTAP und Cloud Volumes ONTAP -Systemen im Google Cloud-Objektspeicher zu sichern.
++
+Um zu beginnen, gehen Sie zur Seite „Systeme“ und ziehen Sie per Drag & Drop ein lokales ONTAP oder Cloud Volumes ONTAP -System auf Ihr Google Cloud Storage-System.
+
++
+https://docs.netapp.com/us-en/data-services-backup-recovery/concept-ontap-backup-to-cloud.html["Erfahren Sie mehr über die Sicherung von ONTAP -Daten in Google Cloud Storage"^] .
+
+* Verwenden Sie * NetApp Cloud Tiering*, um inaktive Daten von lokalen ONTAP Clustern in den Google Cloud-Objektspeicher zu verschieben.
++
+Um zu beginnen, gehen Sie zur Seite „Systeme“ und ziehen Sie per Drag & Drop ein lokales ONTAP -System auf Ihr Google Cloud Storage-System.
+
++
+https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-gcp.html["Erfahren Sie mehr über das Tiering von ONTAP -Daten in Google Cloud Storage"^] .
+
+* Verwenden Sie * NetApp Copy and Sync*, um Daten mit oder von Google Cloud Storage-Buckets zu synchronisieren.
++
+Um zu beginnen, gehen Sie zur Seite „Systeme“ und ziehen Sie das Quellsystem per Drag & Drop auf das Zielsystem. Ihr Google Cloud Storage-System kann entweder die Quelle oder das Ziel sein.
+
+
+
+Sie können auch Ihr Google Cloud Storage-System auswählen und im Bereich „Dienste“ auf „Kopieren und synchronisieren“ klicken, um Daten mit oder von Cloud Storage-Buckets zu synchronisieren.
+
+https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["Erfahren Sie mehr über den NetApp Copy and Sync Service"^] .
